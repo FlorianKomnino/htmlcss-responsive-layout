@@ -182,6 +182,14 @@ footer p:first-child {
     .about-us .container {
         display: flex;
     }
+
+    .about-us-left-col {
+        width: 60%;
+    }
+
+    .about-us-right-col {
+        width: 40%;
+    }
 }
 
 @media screen and (min-width: 992px) {
