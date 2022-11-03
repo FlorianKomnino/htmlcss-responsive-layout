@@ -69,6 +69,14 @@ main .container:first-child {
 
 .right-col {
     height: 500px;
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.testimonial-card {
+    height: 450px;
+    margin: 2rem 0;
+    border-radius: 3rem;
 }
 
 /*************     Media Query     *************/
