@@ -34,6 +34,10 @@ li {
     background-color: var(--third-bg-color);
 }
 
+.bg-white {
+    background-color: white;
+}
+
 /*************     Header Selectors     *************/
 
 
@@ -81,9 +85,13 @@ main .container:first-child {
     border-radius: 3rem;
 }
 
+.benefits-of-working {
+    padding: 4rem 0 0rem;
+}
+
 .benefits-card {
     height: 400px;
-    margin: 1rem 0;
+    margin: 2rem 0;
     border-radius: 2rem;
 }
 
