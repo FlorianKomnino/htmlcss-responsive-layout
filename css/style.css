@@ -98,24 +98,41 @@ figure {
 div.infos {
     height: 50%;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .top-of-page {
     padding: 2.5rem 0;
 }
 
+.card {
+    background-color: var(--second-brand-color);
+    margin: 2rem auto;
+    border-radius: 2rem;
+    padding: 2rem 2rem 0rem;
+    text-align: center;
+}
+
 .cards h2 {
     color: var(--first-brand-color);
     font-size: 2rem;
     text-align: center;
-}
-
-.cards p {
-    color: var(--first-brand-color);
-    font-size: 1.5rem;
-    text-align: center;
     padding: 2rem;
 }
+
+.card p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 0 2.5rem;
+}
+
+.big-card p {
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 1rem 1rem 2.5rem;
+}
+
+
 
 .cards button {
     font-size: 1.5rem;
@@ -125,19 +142,13 @@ div.infos {
     border: none;
 }
 
-.card {
-    background-color: var(--second-brand-color);
-    margin: 2rem auto;
-    border-radius: 2rem;
-    padding: 2rem 2rem 0rem;
-}
-
-.big-card {
-    height: 800px;
-}
-
 .big-card img {
-    object-fit: cover;
+    width: 100%;
+}
+
+.card>i {
+    font-size: 6rem;
+    color: var(--first-brand-color)
 }
 /* strategic planning Selectors */
 
@@ -218,14 +229,12 @@ footer p:first-child {
     }
 
     .card {
-        height: 500px;
         width: calc((100% / 3) - 2rem);
         margin: 1rem;
     }
 
     .big-card {
         width: calc(((100% / 3) * 2) - 2rem);
-        height: 500px;
     }
 
 /* Media Query testimonial Selectors */
@@ -263,7 +272,7 @@ footer p:first-child {
 @media screen and (min-width: 992px) {
 
     .container {
-        width: 60%;
+        width: 950px;
     }
 
 /* Media Query Header Selectors */
@@ -278,10 +287,6 @@ footer p:first-child {
 
 /* Media Query main Selectors */
     /* Media Query top of page Selectors */
-
-    .big-card img {
-        float: right;
-    }
 
     /* Media Query strategic planning Selectors */
 
