@@ -19,6 +19,10 @@
 
 /*************     General Selectors     *************/
 
+li {
+    list-style-type: none;
+}
+
 .flex {
     display: flex;
 }
@@ -39,15 +43,11 @@
     align-items: center;
 }
 
-li {
-    list-style-type: none;
-}
-
 .bg-first-brand-color {
     background-color: var(--first-brand-color);
 }
 
-.third-brand-color {
+.bg-third-brand-color {
     background-color: var(--third-brand-color);
 }
 
@@ -57,6 +57,14 @@ li {
 
 .white-text {
     color: white;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bold-text {
+    font-weight: bold;
 }
 
 /*************     Header Selectors     *************/
@@ -83,6 +91,11 @@ header li.desktop-size {
 
 /*************     Main Selectors     *************/
 
+figure {
+    height: 50%;
+    text-align: center;
+}
+
 main .container:first-child {
     padding-bottom: 2rem;
 }
@@ -93,11 +106,6 @@ main .container:first-child {
 }
 
 /* top of page Selectors */
-
-figure {
-    height: 50%;
-    text-align: center;
-}
 
 div.infos {
     height: 50%;
@@ -204,13 +212,48 @@ p.arrow-down {
 /* testimonials Selectors */
 
 .testimonials {
-    padding: 3rem 0;
+    padding: 3rem 0 5rem;
+    text-align: center;
 }
 
 .testimonial-card {
-    height: 450px;
     margin: 2rem 0;
-    border-radius: 3rem;
+    border-radius: 4rem;
+    padding: 1rem;
+}
+
+.testimonial-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-card figure {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    margin: 1.5rem auto;
+}
+
+.testimonials .container p:first-child {
+    font-size: 2rem;
+}
+
+.testimonial-card p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: var(--third-brand-color);
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+
+.testimonials .container p:nth-child(3) {
+    font-size: 1.75rem;
+    margin: 2rem 0;
 }
 
 /* benefits of working Selectors */
