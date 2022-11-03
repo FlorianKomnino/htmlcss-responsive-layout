@@ -51,6 +51,10 @@ header {
     padding: 1.3rem;
 }
 
+header li.desktop-size {
+    display: none;
+}
+
 
 /*************     Main Selectors     *************/
 
@@ -63,7 +67,7 @@ main .container:first-child {
     margin: 0 auto;
 }
 
-/* top of page part */
+/* top of page Selectors */
 
 .top-of-page {
     padding: 2.5rem 0;
@@ -79,7 +83,7 @@ main .container:first-child {
     height: 500px;
 }
 
-/* strategic planning part */
+/* strategic planning Selectors */
 
 .left-col {
     height: 500px;
@@ -91,7 +95,7 @@ main .container:first-child {
     border-radius: 3rem;
 }
 
-/* testimonials part */
+/* testimonials Selectors */
 
 .testimonials {
     padding: 3rem 0;
@@ -103,7 +107,7 @@ main .container:first-child {
     border-radius: 3rem;
 }
 
-/* benefits of working part */
+/* benefits of working Selectors */
 
 section.benefits-of-working h2:first-child {
     text-align: center;
@@ -124,7 +128,7 @@ section.benefits-of-working h2:first-child {
     border-radius: 2rem;
 }
 
-/* about us part */
+/* about us Selectors */
 
 .about-us {
     height: 1000px;
@@ -150,6 +154,8 @@ footer p:first-child {
 
 @media screen and (min-width: 768px) {
 
+/* Media Query top of page Selectors */
+
     .cards {
         display: flex;
         flex-wrap: wrap;
@@ -166,11 +172,15 @@ footer p:first-child {
         height: 500px;
     }
 
+/* Media Query testimonial Selectors */
+
     .testimonial-card {
         height: 350px;
         margin: 2rem 0;
         border-radius: 3rem;
     }
+
+/* Media Query benefits of working Selectors */
 
     .benefits-card {
         height: 600px;
@@ -178,6 +188,8 @@ footer p:first-child {
         margin: 2rem 2rem;
         border-radius: 2rem;
     }
+
+/* Media Query about us Selectors */
 
     .about-us .container {
         display: flex;
@@ -193,5 +205,65 @@ footer p:first-child {
 }
 
 @media screen and (min-width: 992px) {
+
+    .container {
+        width: 60%;
+    }
+
+/* Media Query Header Selectors */
+
+    header li.desktop-size {
+        display: inline;
+    }
+
+    header li.small-sizes {
+        display: none;
+    }
+
+/* Media Query main Selectors */
+    /* Media Query top of page Selectors */
+
+    .big-card img {
+        float: right;
+    }
+
+    /* Media Query strategic planning Selectors */
+
+    .left-col {
+        height: 1200px;
+        width: 55%;
+    }
+    
+    .right-col {
+        height: 800px;
+        width: 40%;
+        background-color: white;
+        border-radius: 3rem;
+        align-self: flex-end;
+    }
+
+    .strategic-planning .container {
+        display: flex;
+        width: 55%;
+    }
+
+    /* Media Query benefits of working Selectors */
+
+    .benefits-card {
+        width: calc((100% / 3) - 4rem);
+        height: 500px;
+    }
+
+    /* Media Query about us Selectors */
+
+    .about-us-left-col {
+        width: 70%;
+    }
+
+    .about-us-right-col {
+        width: 30%;
+    }
+
+/* Media Query footer Selectors */
 
 }
