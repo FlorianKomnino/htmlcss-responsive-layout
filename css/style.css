@@ -317,6 +317,50 @@ section.benefits-of-working>h2:first-child {
     height: 600px;
 }
 
+.about-us-left-col p {
+    /* font-size: 1.5rem; */
+}
+
+.about-us-right-col img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-us-right-col figure {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+.about-us-right-col button {
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    margin: 2rem auto;
+    padding: 0.4rem 3.5rem 0.8rem;
+    border: none;
+}
+
+.about-us-left-col h2,
+.about-us-right-col h2,
+.about-us-right-col h3 {
+    color: var(--third-brand-color);
+    font-size: 3.5rem;
+    margin: 1rem 0;
+}
+
+.about-us-right-col h3 {
+    font-size: 2rem;
+}
+
+.about-us-right-col h2 {
+    font-size: 6rem;
+    text-align: center;
+}
+
 /*************     Footer Selectors     *************/
 
 footer {
