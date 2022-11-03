@@ -27,6 +27,10 @@
     justify-content: space-between;
 }
 
+.flex-justify-center {
+    justify-content: center;
+}
+
 .flex-column {
     flex-direction: column;
 }
@@ -132,8 +136,6 @@ div.infos {
     padding: 1rem 1rem 2.5rem;
 }
 
-
-
 .cards button {
     font-size: 1.5rem;
     border-radius: 2rem;
@@ -152,14 +154,51 @@ div.infos {
 }
 /* strategic planning Selectors */
 
-.left-col {
-    height: 500px;
+section.strategic-planning {
+    padding: 2rem 0;
 }
 
 .right-col {
-    height: 500px;
     background-color: white;
     border-radius: 3rem;
+}
+
+p.arrow-down {
+    font-size: 2rem;
+    background-color: var(--third-brand-color);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.left-col figure,
+.right-col {
+    text-align: center;
+}
+
+.strategic-planning img {
+    width: 90%;
+}
+
+.strategic-planning h2 {
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+
+.strategic-planning p {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+
+.strategic-planning h3 {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+}
+
+.right-col p {
+    padding: 1rem;
+    align-self: center;
+    margin: 1rem
 }
 
 /* testimonials Selectors */
