@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+/*************     Usefull Staff     *************/
+
+
+:root {
+    --first-bg-color: #0084fd;
+    --second-bg-color: #b5ddff;
+    --trhird-bg-color: #9792e4;
+    --highlighted-text: #fdc15f;
+}
+
 /*************     General Selectors     *************/
 
 .flex {
@@ -18,7 +28,7 @@ li {
     list-style-type: none;
 }
 
-/*************     Header     *************/
+/*************     Header Selectors     *************/
 
 
 header {
@@ -27,6 +37,12 @@ header {
     padding: 1.3rem;
 }
 
+
+/*************     Main Selectors     *************/
+
+.card {
+    background-color: var(--first-bg-color);
+}
 
 /*************     Media Query     *************/
 
