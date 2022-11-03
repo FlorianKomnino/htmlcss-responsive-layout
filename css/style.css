@@ -38,6 +38,10 @@ li {
     background-color: white;
 }
 
+.white-text {
+    color: white;
+}
+
 /*************     Header Selectors     *************/
 
 
@@ -93,6 +97,26 @@ main .container:first-child {
     height: 400px;
     margin: 2rem 0;
     border-radius: 2rem;
+}
+
+.about-us {
+    height: 1000px;
+}
+
+.get-started {
+    height: 600px;
+}
+
+/*************     Footer Selectors     *************/
+
+footer {
+    background-color: #333333;
+    padding: 3rem;
+    height: 250px;
+}
+
+footer p:first-child {
+    margin-bottom: 2rem;
 }
 
 /*************     Media Query     *************/
