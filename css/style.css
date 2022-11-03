@@ -11,7 +11,9 @@
     --first-bg-color: #0084fd;
     --second-bg-color: #b5ddff;
     --third-bg-color: #9792e4;
-    --highlighted-text: #fdc15f;
+    --first-highlighted-text: #9792e4;
+    --second-highlighted-text: #fdc15f;
+    --white-text: white;
 }
 
 /*************     General Selectors     *************/
@@ -77,6 +79,12 @@ main .container:first-child {
     height: 450px;
     margin: 2rem 0;
     border-radius: 3rem;
+}
+
+.benefits-card {
+    height: 400px;
+    margin: 1rem 0;
+    border-radius: 2rem;
 }
 
 /*************     Media Query     *************/
