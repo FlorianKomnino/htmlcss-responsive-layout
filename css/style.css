@@ -12,8 +12,7 @@
     --first-brand-color: #0084fd;
     --second-brand-color: #b5ddff;
     --third-brand-color: #9792e4;
-    --first-highlighted-text: #9792e4;
-    --second-highlighted-text: #fdc15f;
+    --highlighted-text: #fdc15f;
     --white-text: white;
 }
 
@@ -69,6 +68,10 @@ li {
 
 .bold-text {
     font-weight: bold;
+}
+
+.highlighted-text {
+    color: var(--highlighted-text);
 }
 
 /*************     Header Selectors     *************/
@@ -309,16 +312,14 @@ section.benefits-of-working>h2:first-child {
 
 /* about us Selectors */
 
-.about-us {
-    height: 1000px;
+.about-us-right-col {
+    position: relative;
+    padding: 5rem 1rem 1rem;
 }
 
-.get-started {
-    height: 600px;
-}
 
 .about-us-left-col p {
-    /* font-size: 1.5rem; */
+    font-size: 1.5rem;
 }
 
 .about-us-right-col img {
@@ -331,15 +332,12 @@ section.benefits-of-working>h2:first-child {
     height: 250px;
     width: 250px;
     overflow: hidden;
-    position: relative;
-    top: -100px;
-    z-index: -1;
 }
 
 .about-us-right-col button {
     font-size: 1.5rem;
     border-radius: 2rem;
-    margin: 2rem auto;
+    margin: 1rem auto 2rem;
     padding: 0.4rem 3.5rem 0.8rem;
     border: none;
 }
@@ -357,8 +355,66 @@ section.benefits-of-working>h2:first-child {
 }
 
 .about-us-right-col h2 {
+    position: absolute;
+    top: 4rem;
+    left: 200px;
+    margin: 0;
+    line-height: 3.5rem;
+}
+
+.about-us-right-col h2 {
     font-size: 6rem;
     text-align: center;
+}
+
+
+/* get started selectors */
+
+.get-started {
+    padding: 2rem;
+    text-align: center;
+}
+
+.get-started h3 {
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #cbc9f1;
+    margin: 3rem 0 2rem;
+}
+
+.get-started h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.get-started h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.get-started p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.get-started li:nth-child(2),
+.get-started li:nth-child(3){
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.get-started button {
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    margin: 1rem auto 2rem;
+    padding: 0.4rem 3.5rem 0.8rem;
+    border: none;
+}
+
+.get-started ul {
+    font-size: 1.25rem;
+    flex-wrap: wrap;
 }
 
 /*************     Footer Selectors     *************/
@@ -366,11 +422,20 @@ section.benefits-of-working>h2:first-child {
 footer {
     background-color: #333333;
     padding: 3rem;
-    height: 250px;
+    text-align: center;
+}
+
+footer a {
+    color: #7875ae;
+}
+
+footer p {
+    font-size: 1.5rem;
+    margin: 2rem 0;
 }
 
 footer p:first-child {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 /*************     Media Query     *************/
