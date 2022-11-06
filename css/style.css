@@ -774,6 +774,39 @@ footer p:first-child {
     .get-started p {
         width: 400px;
     }
+
+    .get-started h3 {
+        font-size: 1rem;
+        margin: 1rem 0 0 0;
+    }
+
+    .get-started h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .get-started h1 {
+        font-size: 4rem;
+    }
+
+    .get-started p {
+        font-size: 1rem;
+    }
+
+    .get-started button {
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 2rem;
+        margin: 1rem auto 2rem;
+        padding: 1.1rem 3.5rem 1rem;
+        border: none;
+    }
+
+    .get-started ul {
+        font-size: .7rem;
+        flex-wrap: wrap;
+    }
+
 /* Media Query footer Selectors */
 
 }
