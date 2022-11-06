@@ -521,10 +521,20 @@ footer p:first-child {
 /* Media Query benefits of working Selectors */
 
     .benefits-card {
-        height: 600px;
+        height: 400px;
         width: calc((100% / 2) - 4rem);
         margin: 2rem 2rem;
         border-radius: 2rem;
+        padding-top: 1rem;
+    }
+
+    .benefits-card button {
+        margin-top: 0.5rem;
+    }
+
+    .benefits-of-working p {
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
 
 /* Media Query about us Selectors */
