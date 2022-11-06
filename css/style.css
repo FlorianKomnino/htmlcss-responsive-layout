@@ -271,15 +271,15 @@ section.benefits-of-working>h2:first-child {
     font-size: 3rem;
 }
 
+.benefits-card h2 {
+    font-size: 4rem;
+    color: var(--third-brand-color);
+}
+
 .benefits-card h3 {
     color: var(--third-brand-color);
     font-size: 2rem;
     margin: 1rem 0;
-}
-
-.benefits-card h2 {
-    font-size: 4rem;
-    color: var(--third-brand-color);
 }
 
 .benefits-card p {
@@ -718,9 +718,36 @@ footer p:first-child {
 
     /* Media Query benefits of working Selectors */
 
+    .benefits-of-working {
+        padding-bottom: 2rem;
+    }
     .benefits-card {
-        width: calc((100% / 3) - 4rem);
+        width: calc((100% / 3) - 2rem);
         height: 500px;
+        border-radius: 1rem;
+        height: auto;
+        margin: 1rem;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .benefits-card h2 {
+        font-size: 3rem;
+    }
+
+    .benefits-card h3 {
+        font-size: 1.25rem;
+    }
+
+    .benefits-of-working .benefits-card p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    .benefits-card button {
+        font-size: 0.8rem;
+        margin: .25rem auto;
+        padding: 0.4rem 2.5rem 0.8rem;
+        font-weight: 600;
     }
 
     /* Media Query about us Selectors */
