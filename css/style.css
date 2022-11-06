@@ -235,18 +235,18 @@ p.arrow-down {
 
 .testimonial-card figure {
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     overflow: hidden;
     margin: 1.5rem auto;
 }
 
 .testimonials .container p:first-child {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .testimonial-card p {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -256,8 +256,12 @@ p.arrow-down {
     padding: 3rem 0;
 }
 
-.testimonials .container p:nth-child(3) {
-    font-size: 1.75rem;
+.testimonial-description i {
+    font-size: 1.5rem;
+}
+
+.testimonial-description p {
+    font-size: 1.25rem;
     margin: 2rem 0;
 }
 
@@ -498,11 +502,22 @@ footer p:first-child {
 /* Media Query testimonial Selectors */
 
     .testimonial-card {
-        height: 350px;
+        height: 325px;
         margin: 2rem 0;
+        display: flex;
         border-radius: 3rem;
     }
 
+    .testimonial-description {
+        width:65%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial-card  .testimonial-description p {
+        text-align: left;
+        font-size: 1rem;
+    }
 /* Media Query benefits of working Selectors */
 
     .benefits-card {
