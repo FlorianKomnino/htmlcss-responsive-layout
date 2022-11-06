@@ -269,6 +269,8 @@ p.arrow-down {
 section.benefits-of-working>h2:first-child {
     text-align: center;
     font-size: 3rem;
+    width: 380px;
+    margin: 0 auto 2rem;
 }
 
 .benefits-card h2 {
@@ -278,7 +280,7 @@ section.benefits-of-working>h2:first-child {
 
 .benefits-card h3 {
     color: var(--third-brand-color);
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin: 1rem 0;
 }
 
@@ -312,6 +314,10 @@ section.benefits-of-working>h2:first-child {
 }
 
 /* about us Selectors */
+
+.about-us {
+    padding-bottom: 2rem;
+}
 
 .about-us-right-col {
     position: relative;
@@ -524,6 +530,10 @@ footer p:first-child {
     }
 /* Media Query benefits of working Selectors */
 
+    section.benefits-of-working>h2:first-child {
+        width: auto;
+    }
+
     .benefits-card {
         height: 400px;
         width: calc((100% / 2) - 4rem);
@@ -718,6 +728,9 @@ footer p:first-child {
 
     /* Media Query benefits of working Selectors */
 
+    section.benefits-of-working>h2:first-child {
+        width: auto;
+    }
     .benefits-of-working {
         padding-bottom: 2rem;
     }
