@@ -407,6 +407,7 @@ section.benefits-of-working>h2:first-child {
 }
 
 .get-started button {
+    color: var(--third-brand-color);
     font-size: 1.5rem;
     border-radius: 2rem;
     margin: 1rem auto 2rem;
@@ -541,15 +542,49 @@ footer p:first-child {
 
     .about-us .container {
         display: flex;
+        padding-top: 3.5rem;
     }
 
     .about-us-left-col {
-        width: 60%;
+        width: 70%;
     }
 
     .about-us-right-col {
-        width: 40%;
+        width: 30%;
     }
+
+    .about-us-right-col figure {
+        height: 200px;
+        width: 200px;
+    }
+
+    .about-us-right-col h2 {
+        left: 170px;
+    }
+
+    .about-us-right-col h3 {
+    font-size: 1.5rem;
+    }
+
+    .about-us-left-col h2,
+    .about-us-left-col p:nth-child(2),
+    .about-us-left-col p:nth-child(3) {
+        padding: 1rem 3rem;
+        line-height: 3rem
+    }
+
+    .about-us-right-col button {
+        font-size: .9rem;
+        padding: 0.4rem .65rem 0.4rem
+    }
+
+/* Media Query get started Selectors */
+
+    .get-started p {
+        width: 60%;
+        margin: 0 auto 2rem;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
