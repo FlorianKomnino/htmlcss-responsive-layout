@@ -809,4 +809,18 @@ footer p:first-child {
 
 /* Media Query footer Selectors */
 
+    footer {
+        background-color: #333333;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    footer p {
+        width: 350px;
+        font-size: 0.75rem;
+    }
+
+    footer p:first-child {
+        margin-bottom: 2.5rem;
+    }
 }
