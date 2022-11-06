@@ -752,12 +752,21 @@ footer p:first-child {
 
     /* Media Query about us Selectors */
 
+    .about-us {
+        padding-bottom: 3rem;
+    }
     .about-us-left-col {
         width: 70%;
     }
 
     .about-us-right-col {
         width: 30%;
+    }
+
+    .about-us-left-col p:nth-child(2),
+    .about-us-left-col p:nth-child(3) {
+        font-size: 1rem;
+        line-height: 2.25rem;
     }
 
     /* Media Query get started Selectors */
