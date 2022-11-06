@@ -489,6 +489,12 @@ footer p:first-child {
     .big-card p {
         font-size: 0.8rem;
         }
+/* Media Query strategic planning Selectors */
+
+        .strategic-planning figure {
+            width: 100%;
+        }
+
 /* Media Query testimonial Selectors */
 
     .testimonial-card {
