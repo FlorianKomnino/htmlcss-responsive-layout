@@ -518,7 +518,7 @@ footer p:first-child {
         flex-direction: column;
     }
 
-    .testimonial-card  .testimonial-description p {
+    .testimonial-description p {
         text-align: left;
         font-size: 1rem;
     }
@@ -687,6 +687,33 @@ footer p:first-child {
 
     p.arrow-down {
         padding: 1.25rem
+    }
+    /* Media Query testimonials Selectors */
+
+    .testimonials {
+        padding-bottom: 2rem;
+    }
+
+    .testimonial-card {
+        height: 240px;
+    }
+
+    .testimonial-card figure{
+        height: 180px;
+        width: 180px;
+        margin: 0;
+    }
+
+    .testimonial-description p:first-child.white-text {
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin: 0;
+        padding: 3rem 0 1.25rem 3rem;
+    }
+
+    .testimonial-description p {
+        margin: 0;
+        padding: 1.25rem 0 1.25rem 3rem;
     }
 
     /* Media Query benefits of working Selectors */
