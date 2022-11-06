@@ -115,9 +115,7 @@ main .container:first-child {
 /* top of page Selectors */
 
 div.infos {
-    height: 50%;
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 .top-of-page {
@@ -126,7 +124,7 @@ div.infos {
 
 .card {
     background-color: var(--second-brand-color);
-    margin: 2rem auto;
+    margin-top: 2rem;
     border-radius: 2rem;
     padding: 2rem 2rem 0rem;
     text-align: center;
@@ -136,17 +134,16 @@ div.infos {
     color: var(--first-brand-color);
     font-size: 2rem;
     text-align: center;
-    padding: 2rem;
+    padding-top: 1rem;
 }
 
 .card p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
     padding: 1rem 0 2.5rem;
 }
 
 .big-card p {
-    font-size: 1.5rem;
     text-align: left;
     padding: 1rem 1rem 2.5rem;
 }
@@ -154,12 +151,13 @@ div.infos {
 .cards button {
     font-size: 1.5rem;
     border-radius: 2rem;
-    margin: 0 auto;
     padding: 0.4rem 3.5rem 0.8rem;
     border: none;
+    align-self: flex-start;
 }
 
 .big-card img {
+    padding-top: 2rem;
     width: 100%;
 }
 
@@ -444,6 +442,25 @@ footer p:first-child {
 
 /* Media Query top of page Selectors */
 
+    figure {
+        width: 45%;
+        height: auto;
+    }
+
+    .big-card img {
+        height: 100%;
+    }
+
+    .cards h2 {
+        font-size: 1rem;
+        padding-bottom: 0;
+        font-weight: 800;
+    }
+
+    div.infos {
+        margin-bottom: 0;
+    }
+
     .cards {
         display: flex;
         flex-wrap: wrap;
@@ -458,6 +475,20 @@ footer p:first-child {
         width: calc(((100% / 3) * 2) - 2rem);
     }
 
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .big-card h2 {
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 1rem;
+    }
+
+    .big-card p {
+        font-size: 0.8rem;
+        }
 /* Media Query testimonial Selectors */
 
     .testimonial-card {
